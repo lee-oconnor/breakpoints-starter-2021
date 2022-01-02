@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.col-1 {
+  width: 100%;
+}
+
+/* ----------- For screens 768px and larger ----------- */
+@media (min-width: 768px) {
+	body {
+    background: red;
+  }
+}
+
+/* ----------- For screens 1200px wide and larger----------- */
+@media (min-width: 1200px) {
+  body {
+    background: yellow;
+  }
+}
